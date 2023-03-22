@@ -1,0 +1,125 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  /* по умолчанию */
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.main {
+  width: 1440px;
+  height: 732px;
+}
+.main__container {
+  width: 1058px;
+  height: 650px;
+  margin: 0 auto;
+}
+.main__container-title {
+  width: 479px;
+  height: 68px;
+  margin: 67px auto;
+}
+.main h2 {
+  font-family: "Sharp Sans No1";
+  font-style: normal;
+  font-weight: 770;
+  font-size: 54px;
+  line-height: 68px;
+  text-align: center;
+  color: #151414;
+}
+.main__container-cards {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 31px;
+  margin-bottom: 40px;
+}
+.main__container-card {
+  width: 514px;
+  height: 347px;
+}
+.main__container-card1-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 770;
+  font-size: 20px;
+  line-height: 25px;
+}
+.main__container-card-subtitle {
+  padding-left: 50px;
+}
+.main__container-card1-top-text {
+  font-style: normal;
+  font-weight: 760;
+  font-size: 14px;
+  line-height: 17px;
+  color: #888a9a;
+}
+.main__container-card2-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 770;
+  font-size: 20px;
+  line-height: 25px;
+}
+.main__container-card-text {
+  width: 460px;
+  height: 120px;
+}
+.main__container-card-text p {
+  font-weight: 750;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+  padding-right: 31px;
+}
+.main__container-arrows {
+  display: flex;
+  justify-content: center;
+  padding-right: 80px;
+}/*# sourceMappingURL=style.css.map */
